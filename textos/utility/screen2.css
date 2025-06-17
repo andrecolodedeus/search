@@ -1,0 +1,145 @@
+/* GENERAL */
+body { background-color:#ffffff; font-size:small; font-family:verdana,arial,helvetica,sans-serif; }
+a:link, a:visited { text-decoration:none; }
+a:hover, a:active { text-decoration:underline; color:red; }
+
+/* FOUR MAIN DIVISIONS */
+#capitalcity { margin-left:5%; margin-right:5%; background-color:#ffffff; }
+#shelbyville { float:left; padding-top:2px; padding-right:2px; border-right: 1px solid #ffffff; margin-left:5%; margin-right:10px; background-color:#ffffff; }
+#springfield { padding:5px; border:0px solid lightgray; margin-left:5%; margin-right:5%; background-color:#ffffff; }
+#ogdenville { background:#333366; text-align:center; margin-left:5%; margin-right:5%; background-color:#ffffff; }
+
+/* MODULES */
+#burns { width:336px; background-color:#ffffff; padding:3px; border:1px solid white; margin-bottom:10px; }
+#smithers { width:336px; background-color:#ffffff; font-size:80%; padding:7px; border:1px solid lightgray; margin-top:10px; margin-bottom:10px; }
+#patty { width:242px; background-color:#ffffff; font-size:80%; padding:7px; border:1px solid lightgray; margin-top:10px; margin-bottom:10px; }
+#selma { width:242px; background-color:#ffffff; font-size:80%; padding:7px; border:1px solid lightgray; margin-top:10px; margin-bottom:10px; }
+#flanders { width:242px; background-color:#ffffff; font-size:80%; padding:7px; border:1px solid lightgray; margin-top:10px; margin-bottom:10px; }
+#wiggum {}
+
+/* HEADERS */
+.h0 { background-color: #efefce; border-top: 2px solid #336699; height:18px; }
+.h01 { padding-top:1px; }
+.h02 { font-size:4px; line-height:4px; height:4px; background-image:url(http://www.newadvent.org/images/shadow1.gif); background-repeat:repeat-x; margin-bottom:18px; }
+.h03 { float:left; padding-left:8px; vertical-align:middle; text-align:center; }
+.h04 { float:right; padding-right: 10px; vertical-align:middle; text-align:center; color: #0253B7; }
+.h05 { text-decoration:none; }
+h1 { font-size:160%; color:#3F4C6B; }
+h2 { font-size:145%; border-bottom:1px solid black; }
+h3 { font-size:130%; }
+h4 { font-size:115%; }
+h5 { }
+h6 { }
+.h7 { color:white; background-color:gray; padding:2px; text-align:center; font-size:100%; text-decoration:bold; }
+.h8 { color:white; background-color:red; padding:2px; text-align:center; font-size:100%; }
+
+/* BIBLE */
+.poe000 { }
+.poe001 { }
+.poe002 { }
+.poe003 { }
+.pro000 { }
+.pro001 { }
+.pro002 { }
+.speaker { font-size:80%; text-transform:uppercase; }
+.verse { font-size:80%; vertical-align:middle; color:red; }
+h2.bible { font-size:100%; font-style:italic; text-decoration:bold; border-bottom:none; }
+.biblepoem { margin-left:10%; } 
+.bibleprose { }
+
+/* OTHER */
+.copyright { display:block; text-align:center; font-size:80%; }
+
+/* ------------------------------------------------------------ */
+
+/* IDS FOUND IN BREAK5 SCRIPT */
+#adsensenote-on { padding:5px; border:1px dotted gray; margin-top:5px; font-size:85%; color:gray; }
+#adsensenote { display:none; }
+#ad9 { margin-top:10px; margin-bottom:-10px; font-size:85%; }
+#ad9 h2 { display:none; }
+#ad8 { width:234; text-align:center; }
+/* #cdad { float:right; font-weight:bold; line-height:130%; padding:10px; border:1px dotted white; margin-left:10px; margin-bottom:5px; text-align:center; background-color:#ffffff; } */
+cdad {}
+#trincomad { float:right; border:1px dotted white; width:120px; }
+
+/* CLASSES FOUND IN BREAK5 SCRIPT */
+td.bar_white_on_color { width:100%; border-left:thin solid white; border-right:thin solid #3F4C6B; background-color:#3F4C6B; font-size:80%; color:white}
+td.bar_white_on_color a:link { text-decoration:none; color:white; }
+td.bar_white_on_color a:visited { text-decoration:none; color:white; }
+td.bar_white_on_color a:hover, td.bar_white_on_color a:active { text-decoration:none; color:red; }
+a.tab_color_on_beige { text-decoration:none; color:#555555; background-color:#efefce; font-size:80%; font-weight:bold}
+a.tab_white_on_color { text-decoration:none; color:#ffffff; background-color:#3F4C6B; font-size:80%; font-weight:bold}
+td.tab { width:1; border-left:thin solid white; border-right:thin solid gray}
+td.bar_color_on_white { width:100%; border-left:thin solid white; border-right:thin solid white; font-size:80%; color:black}
+
+/* UNIVERSAL */
+#article {}
+#header {}
+#footer { background:#333366; text-align:center; background-color:#ffffff; }
+#lgleft { float:left; width:336px; padding:10px; border:1px dotted white; margin-left:0px; margin-right:10px; margin-bottom:5px; background-color:#ffffff; }
+.navg { display:none; }
+#mi5 { font-size:80%; font-weight:bold; padding-bottom:5px; margin-left:327px; }
+
+/* INLINE MARKUP */
+.stiki { background-color:#ffff99; font-size:80%; padding-left:2px; padding-right:2px; }
+.yellow { background-color:#ffff99; font-size:100%; padding-left:2px; padding-right:2px; }
+span.sc { font-variant: small-caps; }
+span.Greek { font-family:Gentium; }
+span.Hebrew { font-family:'Times New Roman'; }
+#clear { clear:both; }
+.clear { clear:both; }
+
+/* HOME PAGE ONLY */
+#feed1 ul { padding-left:0; margin-left:0; }
+#feed1 li { list-style-type:none; margin-top:0em; margin-bottom:-1em; }
+#feed1 img { padding:5px; margin:5px; }
+#feed2 ul { padding-left:0; margin-left:0; }
+#feed2 li { list-style-type:none; list-style-position:inside; margin-top:1em; padding-top:1em; border-top: 1px dotted gray; }
+#homemain { margin-left:212px; }
+#homesidebar { margin-bottom:10px; float:left; width:180px; background-color:#add8e6; border: 1px dotted blue; padding:5px; }
+.homesidetext { font-size:80%; }
+.redhead { color:white; background-color:red; padding:2px; text-align:center; font-size:80%; }
+
+/* FEEDBURNER BUZZBOOST */
+.headline { font-size:100%; font-style:normal; font-weight:bold; text-transform:capitalize; }
+#creditfooter { display:none; }
+
+/* ONLY IN EGGC AND EGGK */
+#smcent { width:234; text-align:center; }
+#smleft { width:234; text-align:center; }
+div.cenotes {  font-size:80%; }
+
+/* ONLY IN EGGB, EGGF AND EGGL */
+#column1 { display:none; }
+
+/* ONLY IN EGGB, EGGC, EGGK AND EGGS */
+.pub {  font-size:80%; }
+
+/* ADS AND ALERT MESSAGE AT THE TOP OF EACH PAGE */
+#topjs { text-align:center; }
+#adjs { text-align:center; }
+
+/* TEMPORARY */
+#tools { display:none; }
+#cdleft { float:left; padding:10px; border:1px dotted white; margin-left:0px; margin-right:10px; margin-bottom:5px; background-color:#ffffff; }
+#cdright { float:right; width:auto; padding:10px; border:1px dotted white; margin-left:10px; margin-right:0px; margin-bottom:5px; background-color:#ffffff; }
+#cdbottom { text-align:center; }
+.nospam { color:white; }
+
+/* ADS */
+#1-left { float:left; width:336px; padding:10px; border:1px dotted white; margin-left:0px; margin-right:10px; margin-bottom:5px; background-color:#ffffff; }
+#1-right { float:right; width:336px; padding:10px; border:1px dotted white; margin-left:10px; margin-right:0px; margin-bottom:5px; background-color:#ffffff; }
+
+#adleft { float:left; width:auto; padding:10px; border:1px dotted white; margin-left:0px; margin-right:10px; margin-bottom:5px; background-color:#ffffff; }
+#section1 { float:left; width:auto; padding:10px; border:1px dotted white; margin-top:40px; margin-left:0px; margin-right:10px; margin-bottom:5px; background-color:#ffffff; }
+#section2 {  }
+#adcenter {  text-align:center; }
+#adright { float:right; width:auto; padding:10px; border:1px dotted white; margin-left:10px; margin-right:0px; margin-bottom:5px; background-color:#ffffff; }
+
+/* BRECK */
+#top { background-color:purple; text-align:left; padding-left:5px; padding-right:5px; padding-bottom:20px; margin-left:-6%; margin-right:-6%; border-bottom:1px solid lightblue; font-size:90%; margin-top:-10px; }
+#tabr { float:right; padding-right:10px; }
+#tabl { float:left; padding-left:10px; }
+div.top a:link { color:white; text-decoration:none; }
+div.top a:visited { text-decoration:none; }
+div.top a:hover, a:active { text-decoration:underline; color:red; }

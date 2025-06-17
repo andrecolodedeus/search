@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Busca - Arquivos da Fé</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/estilo.css') }}">
+</head>
+<body>
+  <div class="container">
+    <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Logo" class="logo">
+    <h1>📖 Busca nos Arquivos da Igreja</h1>
+    <form method="POST">
+      <input type="text" name="palavra" placeholder="Digite uma palavra..." required>
+      <button type="submit">Buscar</button>
+    </form>
+
+    {% if resultados %}
+      <h2>Resultados:</h2>
+      <ul>
+        {% for r in resultados %}
+          <li>{{ r }}</li>
+        {% endfor %}
+      </ul>
+    {% elif resultados is not none %}
+      <p>Nenhum resultado encontrado.</p>
+    {% endif %}
+  </div>
+</body>
+</html>
